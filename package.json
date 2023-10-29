@@ -1,12 +1,20 @@
 {
-  "name": "nodejs-practice",
+  "name": "6",
   "version": "1.0.0",
-  "description": "my first project",
+  "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js",
+    "notReservedName": "nodemon -e js, html, json, main.js"
   },
   "keywords": [],
-  "author": "sara",
-  "license": "ISC"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.8.6",
+    "bootstrap-v4-rtl": "^4.6.2-1",
+    "chalk": "^4.1.2",
+    "yargs": "^17.7.2"
+  }
 }
